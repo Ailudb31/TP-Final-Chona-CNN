@@ -14,7 +14,7 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 
-model = tf.keras.models.load_model('/content/drive/MyDrive/Python/modeloFashion.keras')
+model = tf.keras.models.load_model('modeloFashion.keras')
 class_labels = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 st.title('Fashion MNIST Image Classification')
