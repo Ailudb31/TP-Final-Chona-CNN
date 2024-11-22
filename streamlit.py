@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Importar las librerias necesarias
-!pip install streamlit
+
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
